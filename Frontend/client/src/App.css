@@ -1,0 +1,148 @@
+#root {
+  /* max-width: 1280px; */
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* overflow: hidden; */
+  /* margin: 0 auto; */
+  /* padding: 1rem; */
+  /* text-align: center; */
+}
+
+@keyframes pulse-speaker {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.2); opacity: 0.7; }
+  100% { transform: scale(1); opacity: 1; }
+}
+@keyframes floating {
+  0% { transform: translateY(0px) translateX(0px) scale(1); }
+  50% { transform: translateY(-30px) translateX(10px) scale(1.1); }
+  100% { transform: translateY(0px) translateX(0px) scale(1); }
+}
+.animate-floating {
+  animation: floating infinite ease-in-out;
+}
+.animate-floating {
+  animation: floating infinite ease-in-out;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(100, 100, 255, 0.2);
+  border-radius: 10px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}
+
+.rooms-page {
+  padding: 2rem;
+  background-color: #f9fafb;
+}
+
+.room {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.room-details {
+  flex-grow: 1;
+}
+
+.join-room-btn {
+  padding: 0.5rem 1rem;
+  background-color: #6c5ce7;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.join-room-btn:hover {
+  background-color: #5a47e0;
+}
+
+.typing-indicator {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: #888;
+}
+.room-list {
+  margin-top: 2rem;
+}
+@keyframes blink {
+  0% { opacity: 0 }
+  50% { opacity: 1 }
+  100% { opacity: 0 }
+}
+.dot-1, .dot-2, .dot-3 {
+  animation: blink 1.4s infinite;
+}
+.dot-2 {
+  animation-delay: 0.2s;
+}
+.dot-3 {
+  animation-delay: 0.4s;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

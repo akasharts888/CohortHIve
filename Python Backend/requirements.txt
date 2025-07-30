@@ -1,0 +1,11 @@
+fastapi
+pydantic
+langchain-mongodb
+langchain
+langgraph
+langchain-groq
+langchain-community
+together
+pyttsx3
+langchain-pinecone
+pymongo
