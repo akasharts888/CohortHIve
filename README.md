@@ -93,25 +93,7 @@ cohorthive/
 
 ---
 
-## 🤖 Demo
-
-\[🔗 Link to your Streamlit demo / Video demo]
-*(Optional — include GIF/screenshot of UI)*
-
----
-
 ## 🧑‍💻 Author
 
 **Akash Sharma**
 AI/ML Engineer | Agentic AI Developer
-[LinkedIn](#) • [GitHub](#) • [Portfolio](#)
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
-
----
-
-Let me know if you want a short version or if this needs to be tailored for a specific platform (like GitHub, Hugging Face, etc).
